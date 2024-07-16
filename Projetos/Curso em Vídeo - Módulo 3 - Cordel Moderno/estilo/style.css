@@ -5,7 +5,7 @@
 }
 html, body {
     min-height: 100vh;
-    background-color: darkslategray;
+    background-color: gray;
 }
 header {
     background-color: black;
