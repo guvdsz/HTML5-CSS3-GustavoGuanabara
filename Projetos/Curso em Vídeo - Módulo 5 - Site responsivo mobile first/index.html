@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site responsivo</title>
     <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="mediaquery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
         <span class="material-symbols-outlined" id="burguer" onclick="clickmenu()">Menu</span>
@@ -32,6 +33,13 @@
 
     </footer>
     <script>
+        function mudoutamanho() {
+           if (window.innerWidth >= 768) {
+            itemmenu.style.display = 'block'
+           } else {
+            itemmenu.style.display = 'none'
+           }
+        }
         function clickmenu() {
             if (itemmenu.style.display == 'block') {
                 itemmenu.style.display = 'none'

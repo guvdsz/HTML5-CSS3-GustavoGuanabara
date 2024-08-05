@@ -9,11 +9,12 @@ body, html {
 }
 header {
     background-color: gray;
-    padding: 15px;
-    text-align: center;
+    
 }
 header > h1 {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
 }
 span#burguer {
     display: block;
@@ -36,11 +37,12 @@ menu > ul {
 menu a {
     display: block;
     padding: 10px;
+    margin-right: 5px;
     color: white;
     text-decoration: none;
     background-color: rgb(87, 87, 87);
     text-align: center;
-    border-top: 1px solid rgb(67, 66, 66);
+    border-top: 1px solid rgb(82, 81, 81);
 }
 menu a:hover {
     background-color: gray;
