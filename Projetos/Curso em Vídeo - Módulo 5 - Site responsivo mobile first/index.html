@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site responsivo</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickmenu()">Menu</span>
+        <menu id="itemmenu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit ipsum hic excepturi. Architecto voluptas impedit quo magnam, accusantium eius officiis ipsam placeat voluptatibus suscipit ad sequi neque facere optio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates magnam nemo sequi iusto cumque, ipsam exercitationem perferendis doloribus facilis obcaecati deserunt ducimus aliquid tenetur, quibusdam, magni adipisci reprehenderit esse voluptate.</p>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function clickmenu() {
+            if (itemmenu.style.display == 'block') {
+                itemmenu.style.display = 'none'
+            } else {
+                itemmenu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
