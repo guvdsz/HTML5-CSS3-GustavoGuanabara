@@ -32,7 +32,7 @@ section#login {
     transition-timing-function: ease;
 }
 section#login > div#image {
-    background: url(/images/building.jpg) no-repeat;
+    background: url(/images/20230726-edificio-a-noite.jpg) no-repeat;
     background-size: cover;
     height: 150px;
     display: block;
