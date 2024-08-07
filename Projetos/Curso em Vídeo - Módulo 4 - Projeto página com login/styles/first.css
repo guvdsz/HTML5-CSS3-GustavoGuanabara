@@ -1,1 +1,44 @@
 @charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background-color: #abab56;
+}
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#login {
+    background-color: darkblue;
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
+    transition: width .25s, height .25s;
+    transition-timing-function: ease;
+}
+section#login > div#image {
+    background: url(/images/building.jpg) no-repeat;
+    background-size: cover;
+    height: 150px;
+    display: block;
+}
+section#login > div#form {
+    padding: 10px;
+    display: block;
+}
+
